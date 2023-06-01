@@ -24,9 +24,6 @@ public class student{
             String name = sc.nextLine();
             s[i] = new student(name);
         }
-//        for (int i = 0; i < s.wait(); i++) {
-//            if (s) {
-//            }
 
         System.out.println(Arrays.toString(s));
 
