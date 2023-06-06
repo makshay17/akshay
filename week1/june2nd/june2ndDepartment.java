@@ -1,3 +1,5 @@
+package week1.june2nd;
+
 public class june2ndDepartment {
 public static void main(String args[]){
     Departmentsubclass dpmt = new Departmentsubclass();

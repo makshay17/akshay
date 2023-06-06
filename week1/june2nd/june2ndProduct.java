@@ -1,3 +1,5 @@
+package week1.june2nd;
+
 public class june2ndProduct {
 public static void main(String args[]){
     Product pctd = new Product();
