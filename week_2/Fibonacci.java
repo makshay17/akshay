@@ -9,7 +9,7 @@ public class Fibonacci {
         int n = 10;
         System.out.print("Enter the number of terms: ");
         for (int i = 1; i <= n; ++i) {
-            System.out.print(t1 + " ");
+            System.out.println(t1 + " ");
             int sum = t1 + t2;
             t1 = t2;
             t2 = sum;
