@@ -2,7 +2,7 @@ package june7th;
 import java.util.Arrays;
 public class reversearray {
 
-        static int[] rev = new int[]{7348,2,23,4,9,6,9};
+        static int[] rev = new int[]{1,2,3,4,5,6,7,8,9};
 
         public static void main(String[] args) {
             for (int i=0;i<(rev.length)/2;i++) {
