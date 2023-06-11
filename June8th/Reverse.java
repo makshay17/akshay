@@ -1,7 +1,7 @@
 package June8th;
 
 public class Reverse {
-	StringBuilder myName = new StringBuilder("doman okza");
+	StringBuilder myName = new StringBuilder("this is me");
 	public void test() {
 	
 	int l=myName.length();

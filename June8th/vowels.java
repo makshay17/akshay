@@ -1,7 +1,7 @@
 package June8th;
 
 public class vowels {
-	String s="Awerya";
+	String s="classi";
 	public void test() {
 	int c=0;
 	for(int i=0;i<s.length();i++) {

@@ -27,7 +27,7 @@ public class Rotate{
     }
     public static void main(String[] args){
         Rotate m=new Rotate();
-        m.test("arya","arya");
+        m.test("aksh","aksh");
 
     }
 }

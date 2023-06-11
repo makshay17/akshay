@@ -6,7 +6,7 @@ public class Anagram {
 	String[] arr1;
 	String[] arr;
 
-	public void sortn(String[] arr1) {
+	public void onesort(String[] arr1) {
 		int i,j;
 		String key;
 		  
@@ -28,7 +28,7 @@ public class Anagram {
 		  this.arr1=arr1;
 	}
 		  
-		  public void sortn1(String[] arr) {
+		  public void twosort(String[] arr) {
 				int i,j;
 				  String key;
 				  
@@ -59,12 +59,12 @@ public class Anagram {
 		
 
 	public static void main(String[] args) {
-		String[] inputArray = {"R","A","C","E"};
-		String[] inputArray1 = {"C","A","R","E"};
-		Anagram a=new Anagram();
-		a.sortn(inputArray1);
-		a.sortn1(inputArray);
-		a.test();
+		String[] inputArray = {"a","k","s","h"};
+		String[] inputArray1 = {"k","y","x","z"};
+		Anagram ijk=new Anagram();
+		ijk.onesort(inputArray1);
+		ijk.twosort(inputArray);
+		ijk.test();
 		}
 	
 	}
