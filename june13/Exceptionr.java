@@ -1,9 +1,9 @@
-package Strings_and_exceptions;
+package june13;
 
 public class Exceptionr extends RuntimeException {
 
-	public Exceptionr(String s) {
-		super(s);
+	public Exceptionr(String abc) {
+		super(abc);
 	}
 	
 }
