@@ -5,7 +5,7 @@ import java.util.stream.*;
 public class Capital {
 
     public static void main(String[] args) {
-        String ss="aeiou";
+        String vowel1="aeiou";
         List<String> l=new ArrayList<>();
         l.add("pk");
         l.add("akshay");
@@ -13,15 +13,15 @@ public class Capital {
         l.add("pavan");
         l.add("nagesh");
         l.add("latheesh");
-        List<Integer> i=new ArrayList<>();
-        i.add(1);
-        i.add(2);
-        i.add(3);
-        i.add(4);
-        int[] iarr = {0};
+        List<Integer> first=new ArrayList<>();
+        first.add(1);
+        first.add(2);
+        first.add(3);
+        first.add(4);
+        int[] iarri  = {0};
         //Question 1
-        List<String> ll=l.stream().map(p->{
-            return Character.toUpperCase(p.charAt(0))+p.substring(1);
+        List<String> ll=l.stream().map(second->{
+            return Character.toUpperCase(second.charAt(0))+second.substring(1);
         }).sorted().collect(Collectors.toList());
         System.out.println("First Letter Captalized: "+ll);
         System.out.println();
@@ -35,7 +35,7 @@ public class Capital {
 
 
         //Question 3
-        double a=i.stream().map(si->{return (si%2==0)?si*si:0;}).mapToInt(aa -> aa).average().orElse(0);
+        double a=first.stream().map(si->{return (si%2==0)?si*si:0;}).mapToInt(aa -> aa).average().orElse(0);
         System.out.println(a);
         System.out.println();
         //Question 4
