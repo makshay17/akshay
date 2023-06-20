@@ -18,7 +18,7 @@ public class Capital {
         first.add(2);
         first.add(3);
         first.add(4);
-        int[] iarri  = {0};
+
         //Question 1
         List<String> ll=l.stream().map(second->{
             return Character.toUpperCase(second.charAt(0))+second.substring(1);
@@ -39,7 +39,9 @@ public class Capital {
         System.out.println(a);
         System.out.println();
         //Question 4
-        Collections.sort(l,(String s1, String s2)->(s1.length()>s2.length())?1:(s1.length()==s2.length())?(s1.charAt(s1.length()-1))<(s2.charAt(s2.length()-1))?1:-1:-1);
+        Collections.sort(l,(String s1, String s2)->(s1.length()>s2.length())?
+                1:(s1.length()==s2.length())?
+                (s1.charAt(s1.length()-1))<(s2.charAt(s2.length()-1))?1:-1:-1);
         System.out.println(l);
         System.out.println();
     }
