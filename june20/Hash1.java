@@ -1,10 +1,10 @@
-package june20;
+package main.java.june20;
 
 import java.util.*;
 
 
-public class Hash1 {
-    public static void main(String[] args) {
+public class Hash1 extends Throwable {
+    public static void main(String[] args) throws Hash1 {
         Map<String, Student> abc = new HashMap<>();
         abc.put("Krishna", new Student("Krishna", "Vishnu", 4));
         abc.put("Pk", new Student("pk", "Venkat", 4));
@@ -20,6 +20,7 @@ public class Hash1 {
         while (sse.hasNext()) {
             String s1=sse.next();
             System.out.println(sse.next()+abc.get(s1).getGpa());
+            
         }
         //Question 2
 

@@ -1,4 +1,4 @@
-package june20;
+package main.java.june20;
 
 public class Student {
     private String fn;

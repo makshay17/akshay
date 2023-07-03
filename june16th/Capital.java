@@ -1,4 +1,4 @@
-package june16th;
+package main.java.june16th;
 import java.util.*;
 import java.util.stream.*;
 

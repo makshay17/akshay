@@ -1,4 +1,4 @@
-package june15;
+package main.java.june15;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

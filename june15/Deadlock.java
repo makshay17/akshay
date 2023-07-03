@@ -1,4 +1,4 @@
-package june15;
+package main.java.june15;
 
 public class Deadlock {
 
